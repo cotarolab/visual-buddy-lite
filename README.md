@@ -9,47 +9,69 @@
 <a id="japanese"></a>
 ## 🇯🇵 日本語
 
-### 既存の「重い・複雑」を覆す。驚くほど軽快、Windows向け次世代拡大ツール。
+カーソル周辺を、ポータブルに拡大確認。
 
-VisualBuddy Liteは、既存の拡大ツールの「動作が重い」「操作が複雑」「導入コストが高い」といったイメージを払拭するために開発された、超軽量なWindows専用拡大アプリです。
+### 概要
+VisualBuddy Lite は、画面上のカーソル周辺を拡大表示し、十字ラインで注目位置を示す Windows 用の軽量ツールです。
+プレゼン、画面共有、細部確認、文字やUIの確認作業に利用できます。
 
-PCへの負荷を極限まで抑えた設計により、ビジネスのプレゼンテーションから、小さな文字が読みづらいと感じる方の日常利用まで、あらゆるシーンで「迷わず、すぐ使える」快適な視覚体験を提供します。
-
----
-
-### 主な特徴
-
-#### 1. 究極の「軽さ」と「速さ」
-PCのパフォーマンスを損なわない超軽量設計。必要な時に瞬時に起動し、バックグラウンドでも動作を邪魔しません。
-
-#### 2. ゼロ遅延の拡大表示（[Alt] ＋ [無変換]）
-独自のショートカットロジックにより、キーを押した瞬間にマウス直下を拡大。思考のスピードを妨げない直感的な操作感を実現しました。
-
-#### 3. 視線を見失わない「十字線ガイド」
-拡大中、どこを指しているのか一目でわかる「十字線（クロスヘア）」を搭載。広い画面でもターゲットを確実に捉え続けます。
-
-#### 4. 文字をクッキリ滑らかにする高画質エンジン
-最新の画像補間技術により、拡大時に発生しがちな「文字のぼやけ」を抑制。紙の資料をルーペで覗いているような、クッキリと美しい視界を提供します。
+### 主な機能
+- カーソル位置を示す十字ラインの常時表示
+- Alt + 無変換 による一時的な拡大レンズ表示
+- レンズ表示中の L キーによる固定 / 解除
+- レンズと十字ラインの被り回避
+- タスクトレイ常駐
+- ポータブル起動対応
+- ライトプロテクトされたUSBメモリからの起動対応
+- ホットキーによる十字線切り替えと終了
+- DPI設定のフォールバック
+- ホットキー競合時の通知
 
 ---
 
-### 動作環境
-- **OS**: Windows 11 / 10
-- **依存関係**: .NET Framework 4.8
-- **権限**: インストール不要（管理者権限なしで実行可能）
+### ホットキー
+- Alt + 無変換: 押している間、拡大レンズを表示
+- L: レンズ表示中に固定 / 解除
+- Alt + Ctrl + J: 十字線 ON / OFF
+- Alt + Ctrl + End: アプリ終了
 
 ---
 
 ### 使い方
-1. 本リポジトリの「Releases」から最新版のZIPファイルをダウンロードします。
-2. 解凍して実行ファイル（.exe）を起動します。
-3. `[Alt]` キーと `[無変換]` キーを同時に押している間、マウスカーソル周辺が拡大表示されます。
-4. 終了はタスクトレイのアイコンから行えます。
+1. VisualBuddy Lite v1.0.1.exe を起動します。
+2. 十字ラインがカーソル位置を示します。
+3. Alt + 無変換 を押している間、カーソル周辺のレンズが表示されます。
+4. レンズ表示中に L を押すと、レンズ表示を固定または解除できます。
+5. タスクトレイメニューから終了できます。
 
 ---
 
-### 詳細情報・更新履歴
-- 2026.04.20 VisualBuddy Lite v1.0 初回リリース
+### ポータブル仕様
+- インストール不要で、EXE単体で起動できます。
+- レジストリ、ユーザーフォルダ、EXEと同じフォルダへ設定、ログ、一時ファイルを書き込みません。
+- ライトプロテクトされたUSBメモリからも起動できます。
+- USBメモリから起動する場合も、EXEをそのまま起動してください。
+- USBメモリから起動中に起動元ドライブが読めなくなった場合は、安全のため自動終了します。
+- 詳細は Documents フォルダ内の基本仕様書を確認してください。
+
+---
+
+### 同梱資料
+- Documents/VisualBuddyLite_基本仕様書_v1.0.1.pdf
+- Documents/LICENSE.txt
+- Documents/割り当てキー一覧.txt
+
+---
+
+### 注意事項
+- ホットキーが他のアプリと競合した場合、登録に失敗することがあります。
+- 一部の保護ウィンドウ、リモート環境、DPI混在環境では画面キャプチャが失敗する場合があります。
+- キャプチャ除外機能は Windows のバージョンや環境により利用できない場合があります。
+- ダウンロード直後や初回起動時に Windows Defender SmartScreen などの警告が表示される場合があります。
+
+---
+
+
 
 ---
 
@@ -72,47 +94,48 @@ Copyright (c) 2026 cotaro lab. All Rights Reserved.
 <a id="english"></a>
 ## 🌍 English
 
-### Defying the "heavy and complex". A stunningly lightweight, beautiful, next-gen magnifier for Windows.
+Portable magnification for precise cursor-area checks.
 
-VisualBuddy Lite is an ultra-lightweight screen magnifier for Windows designed to dispel the image of existing magnification tools being "heavy," "complex," and "expensive."
+### Overview
+VisualBuddy Lite is a lightweight Windows tool that shows a magnified view around the cursor and uses crosshair lines to indicate the target position.
+It is useful for presentations, screen sharing, detail checks, and reading small UI/text.
 
-With a design that minimizes PC load to the absolute limit, it provides a comfortable visual experience that anyone can use intuitively, right away—from business presentations to daily use for those who have trouble reading small text.
+### Main Features
+- Always-visible crosshair lines for the cursor position
+- Temporary magnifier with Alt + NonConvert
+- Lock / unlock while the lens is visible with L
+- Crosshair clipping around the lens
+- System tray resident app
+- Portable startup support
+- Read-only USB drive startup support
+- Hotkeys for crosshair toggle and exit
+- DPI fallback
+- Hotkey registration failure notification
 
----
+### Hotkeys
+- Alt + NonConvert: Show the magnifier while pressed
+- L: Lock / unlock while the lens is visible
+- Alt + Ctrl + J: Toggle crosshair ON / OFF
+- Alt + Ctrl + End: Exit the app
 
-### Key Features
+### Portable Specification
+- No installation is required. The EXE can be launched directly.
+- The app does not write settings, logs, or temporary files to the registry, user profile, or executable folder.
+- The app can be launched from a read-only USB drive.
+- To launch from a USB drive, run the EXE directly.
+- When launched from a USB drive, the app exits automatically if the startup drive becomes unavailable.
+- See the basic specification document in the Documents folder for details.
 
-#### 1. Ultimate "Lightness" and "Speed"
-An ultra-lightweight design that doesn't compromise your PC's performance. It launches instantly when needed and stays out of your way in the background.
+### Included Documents
+- Documents/VisualBuddyLite_基本仕様書_v1.0.1.pdf
+- Documents/LICENSE.txt
+- Documents/割り当てキー一覧.txt
 
-#### 2. Zero-Latency Magnification (`[Alt]` + `[Non-Convert]`)
-Thanks to unique shortcut logic, it zooms in directly under the mouse the moment you press the keys. Enjoy intuitive operation that keeps up with the speed of your thoughts.
-
-#### 3. "Crosshair Guide" to Keep Your Focus
-Features a crosshair that instantly shows exactly where you're pointing while zoomed in. Never lose track of your target, even on a large screen.
-
-#### 4. High-Quality Engine for Crisp, Smooth Text
-Uses the latest image interpolation technology to prevent the "blurriness" common when zooming. Provides a clear, beautiful view, just like looking through a real magnifying glass.
-
----
-
-### System Requirements
-- **OS**: Windows 11 / 10
-- **Dependencies**: .NET Framework 4.8
-- **Permissions**: No installation required (Runs without admin privileges / Portable)
-
----
-
-### Usage
-1. Download the latest ZIP file from the "Releases" page in this repository.
-2. Extract the file and run the executable (`.exe`).
-3. The area around your mouse cursor will be magnified as long as you hold down the `[Alt]` and `[Non-Convert]` keys.
-4. You can exit the application from the task tray icon.
-
----
-
-### Details & Changelog
-- April 20, 2026 — VisualBuddy Lite v1.0 Initial Release
+### Notes
+- Hotkey registration can fail if another app already uses the same shortcuts.
+- Screen capture can fail in some protected-window, remote-desktop, or mixed-DPI environments.
+- Capture exclusion depends on the Windows version and environment.
+- Windows Defender SmartScreen or similar warnings may appear after download or on first launch.
 
 ---
 
