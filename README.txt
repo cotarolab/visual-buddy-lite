@@ -69,11 +69,11 @@ Freeware
 
 Portable magnification for precise cursor-area checks.
 
-###Overview
+##Overview
 VisualBuddy Lite is a lightweight Windows tool that shows a magnified view around the cursor and uses crosshair lines to indicate the target position.
 It is useful for presentations, screen sharing, detail checks, and reading small UI/text.
 
-###Main Features
+##Main Features
 - Always-visible crosshair lines for the cursor position
 - Temporary magnifier with Alt + NonConvert
 - Lock / unlock while the lens is visible with L
@@ -85,13 +85,13 @@ It is useful for presentations, screen sharing, detail checks, and reading small
 - DPI fallback
 - Hotkey registration failure notification
 
-###Hotkeys
+##Hotkeys
 - Alt + NonConvert: Show the magnifier while pressed
 - L: Lock / unlock while the lens is visible
 - Alt + Ctrl + J: Toggle crosshair ON / OFF
 - Alt + Ctrl + End: Exit the app
 
-###Portable Specification
+##Portable Specification
 - No installation is required. The EXE can be launched directly.
 - The app does not write settings, logs, or temporary files to the registry, user profile, or executable folder.
 - The app can be launched from a read-only USB drive.
@@ -99,20 +99,20 @@ It is useful for presentations, screen sharing, detail checks, and reading small
 - When launched from a USB drive, the app exits automatically if the startup drive becomes unavailable.
 - See the basic specification document in the Documents folder for details.
 
-###Included Documents
+##Included Documents
 - Documents/VisualBuddyLite_基本仕様書_v1.0.1.pdf
 - Documents/LICENSE.txt
 - Documents/割り当てキー一覧.txt
 
-###Notes
+##Notes
 - Hotkey registration can fail if another app already uses the same shortcuts.
 - Screen capture can fail in some protected-window, remote-desktop, or mixed-DPI environments.
 - Capture exclusion depends on the Windows version and environment.
 - Windows Defender SmartScreen or similar warnings may appear after download or on first launch.
 
-###Author
+##Author
 cotaro lab.
 
-###Update History
+##Update History
 v1.0.1
 - Adjusted the lens frame display and organized Lite information and hotkey display.
