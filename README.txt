@@ -115,4 +115,85 @@ cotaro lab.
 
 ##Update History
 v1.0.1
+- Adjusted the lens frame display and organi- インストール不要で、EXE単体で起動できます。
+- レジストリ、ユーザーフォルダ、EXEと同じフォルダへ設定、ログ、一時ファイルを書き込みません。
+- ライトプロテクトされたUSBメモリからも起動できます。
+- USBメモリから起動する場合も、EXEをそのまま起動してください。
+- USBメモリから起動中に起動元ドライブが読めなくなった場合は、安全のため自動終了します。
+- 詳細は Documents フォルダ内の基本仕様書を確認してください。
+
+##同梱資料
+- Documents/VisualBuddyLite_基本仕様書_v1.0.1.pdf
+- Documents/LICENSE.txt
+- Documents/割り当てキー一覧.txt
+
+##注意事項
+- ホットキーが他のアプリと競合した場合、登録に失敗することがあります。
+- 一部の保護ウィンドウ、リモート環境、DPI混在環境では画面キャプチャが失敗する場合があります。
+- キャプチャ除外機能は Windows のバージョンや環境により利用できない場合があります。
+- ダウンロード直後や初回起動時に Windows Defender SmartScreen などの警告が表示される場合があります。
+
+##作者
+cotaro lab.
+
+##更新履歴
+v1.0.1
+- レンズ枠の表示調整と、ライト版情報・キー割り当て表示を整理しました。
+
+------------------------------------------------------------
+English
+------------------------------------------------------------
+
+VisualBuddy Lite v1.0.1
+Copyright (c) 2026 cotaro lab. All rights reserved.
+Freeware
+
+Portable magnification for precise cursor-area checks.
+
+##Overview
+VisualBuddy Lite is a lightweight Windows tool that shows a magnified view around the cursor and uses crosshair lines to indicate the target position.
+It is useful for presentations, screen sharing, detail checks, and reading small UI/text.
+
+##Main Features
+- Always-visible crosshair lines for the cursor position
+- Temporary magnifier with Alt + NonConvert
+- Lock / unlock while the lens is visible with L
+- Crosshair clipping around the lens
+- System tray resident app
+- Portable startup support
+- Read-only USB drive startup support
+- Hotkeys for crosshair toggle and exit
+- DPI fallback
+- Hotkey registration failure notification
+
+##Hotkeys
+- Alt + NonConvert: Show the magnifier while pressed
+- L: Lock / unlock while the lens is visible
+- Alt + Ctrl + J: Toggle crosshair ON / OFF
+- Alt + Ctrl + End: Exit the app
+
+##Portable Specification
+- No installation is required. The EXE can be launched directly.
+- The app does not write settings, logs, or temporary files to the registry, user profile, or executable folder.
+- The app can be launched from a read-only USB drive.
+- To launch from a USB drive, run the EXE directly.
+- When launched from a USB drive, the app exits automatically if the startup drive becomes unavailable.
+- See the basic specification document in the Documents folder for details.
+
+##Included Documents
+- Documents/VisualBuddyLite_基本仕様書_v1.0.1.pdf
+- Documents/LICENSE.txt
+- Documents/割り当てキー一覧.txt
+
+##Notes
+- Hotkey registration can fail if another app already uses the same shortcuts.
+- Screen capture can fail in some protected-window, remote-desktop, or mixed-DPI environments.
+- Capture exclusion depends on the Windows version and environment.
+- Windows Defender SmartScreen or similar warnings may appear after download or on first launch.
+
+##Author
+cotaro lab.
+
+##Update History
+v1.0.1
 - Adjusted the lens frame display and organized Lite information and hotkey display.
