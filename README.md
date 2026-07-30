@@ -50,12 +50,6 @@ VisualBuddy Lite は、画面上のカーソル周辺を拡大表示し、十字
 - USB メモリからの起動中に起動元ドライブが読み取れなくなった場合は、安全のため自動終了します。
 - 詳細は `Documents` フォルダ内の基本仕様書を確認してください。
 
-## 同梱資料
-
-- [`Documents/VisualBuddyLite_基本仕様書_v1.0.1.pdf`](Documents/VisualBuddyLite_基本仕様書_v1.0.1.pdf)
-- [`Documents/LICENSE.txt`](Documents/LICENSE.txt)
-- [`Documents/割り当てキー一覧.txt`](Documents/割り当てキー一覧.txt)
-
 ## 注意事項
 
 - ホットキーがほかのアプリと競合した場合、登録に失敗することがあります。
@@ -123,12 +117,6 @@ It is useful for presentations, screen sharing, detail checks, and reading small
 - To launch it from a USB drive, run the EXE directly.
 - When launched from a USB drive, the app exits automatically if the startup drive becomes unavailable.
 - See the basic specification document in the `Documents` folder for details.
-
-## Included Documents
-
-- [`Documents/VisualBuddyLite_基本仕様書_v1.0.1.pdf`](Documents/VisualBuddyLite_基本仕様書_v1.0.1.pdf)
-- [`Documents/LICENSE.txt`](Documents/LICENSE.txt)
-- [`Documents/割り当てキー一覧.txt`](Documents/割り当てキー一覧.txt)
 
 ## Notes
 
